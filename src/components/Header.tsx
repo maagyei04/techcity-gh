@@ -91,7 +91,7 @@ export const Header = () => {
                 <Flex
                     background="surface" border="neutral-medium" borderStyle="solid-1" radius="m-4" shadow="l"
                     paddingY="12"
-                    paddingX="56"
+                    paddingX="12"
                     justifyContent="center">
                     <Flex
                         gap="8"
@@ -130,7 +130,7 @@ export const Header = () => {
                         )}
                         {routes['/contact'] && (
                             <ToggleButton
-                                prefixIcon="contact"
+                                prefixIcon="phone"
                                 href={`/${params?.locale}/contact`}
                                 selected={pathname.startsWith('/contact')}>
                                 <Flex paddingX="8" hide="s">{contact.label}</Flex>

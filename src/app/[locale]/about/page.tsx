@@ -117,7 +117,7 @@ export default function About(
                             wrap="initial"
                             variant="display-strong-m"
                             color='blue'
-                            style={{ height: "50px" }}
+                            style={{ height: "80px" }}
                         >
                             <Text>Discover our </Text><TypeEffect words={words} />
                         </Heading>

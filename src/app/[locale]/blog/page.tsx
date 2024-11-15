@@ -105,7 +105,7 @@ export default function Blog(
 							wrap="initial"
 							variant="display-strong-m"
 							color='blue'
-							style={{ height: "50px" }}
+							style={{ height: "80px" }}
 						>
 							<Text>Read </Text><TypeEffect words={words} /><Text> Posts</Text>
 						</Heading>

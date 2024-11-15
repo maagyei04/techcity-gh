@@ -35,7 +35,10 @@ import {
 	FaXTwitter,
 	FaInstagram,
 	FaFacebook,
+	FaPhone
 } from "react-icons/fa6";
+
+
 
 export const iconLibrary: Record<string, IconType> = {
 	chevronUp: HiChevronUp,
@@ -66,4 +69,5 @@ export const iconLibrary: Record<string, IconType> = {
 	x: FaXTwitter,
 	instagram: FaInstagram,
 	facebook: FaFacebook,
+	phone: FaPhone
 };
