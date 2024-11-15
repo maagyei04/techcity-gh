@@ -1,0 +1,11 @@
+.position {
+    position: sticky;
+    top: 0;
+}
+
+@media (--s) {
+    .position {
+        top: auto;
+        position: fixed;
+    }
+}

@@ -1,0 +1,34 @@
+.hover {
+    transition: var(--transition-property) var(--transition-duration-micro-medium) var(--transition-timing-function);
+
+    &:hover {
+        transform: translateX(var(--static-space-4));
+    }
+}
+
+.image {
+    width: 300px;
+    height: 230px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (--s) {
+    .textAlign {
+        text-align: center;
+    }
+
+    .blockAlign {
+        align-self: center;
+    }
+}
+
+.up {
+    margin-top: auto;
+}
+
+@media (--s) {
+    .up {
+        margin-top: 50px;
+    }
+}
